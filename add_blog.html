@@ -1,29 +1,24 @@
-
 <html>
+<head>
+    <title>Add blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+
 <body>
 
-<form action ="insert.php" method=”post”>
-<table>
-<tr>
-<td>Post Title :</td>
-<td><input type=”text” id=”post_title” name=”post_title”/></td>
-</tr>
+<form action ="insert.php" method="POST"> 
 
-<tr>
-<td>Content :</td>
-<td><textarea id=”content” name=”content”></textarea></td>
-</tr>
-<tr>
-<td>Author Name : </td>
-<td><input type=”text” id=”author” name=”author”/></td>
-</tr>
-<tr>
-<td></td>
-<td >
-<input id=”submit” type="submit" value="Save">
-</td>
-</tr>
-</table>
+<label>Post Title :</label>
+<input type="text" id="post_title" name="post_title" />
+
+<label>Content :</label>
+<textarea id="content" name="content" ></textarea>
+
+<label>Author Name : </label>
+<input type="text" id="author" name="author" />
+
+
+<input id="submit" type="submit" value="Save" >
 </form>
 
 &nbsp;&nbsp;<a href='blog.php'> view blog</a>
