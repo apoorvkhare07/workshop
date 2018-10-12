@@ -14,6 +14,6 @@ while($row = mysql_fetch_array($result)){
 <p><?php echo $row["content"]; ?></p>
 <?php } ?>
 
-<a href='add_blog.php'> add blog</a>
+<a href='add_blog.html'> add blog</a>
 </body>
 </html>
