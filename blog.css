@@ -4,7 +4,7 @@
 /* CSS for navbar and footer */
 
 .navbar{
-    color:white;
+    color: white;
     font-family: 'Merriweather', serif;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ a::after{
     content: '';
     display: block;
     width: 0;
-    height: 1px;
+    height: 2px;
     background: black;
     transition: width .5s;
 }
@@ -41,17 +41,19 @@ h3, h1{
 
 .card-title{
     align-self: flex-end;
-    margin-right:5px;
+    margin-right: 5px;
+    margin-right: 2px
 }
 
 .posted-on{
     margin-right: 5px;
     margin-bottom: 20px;
-    font-size:0.75em;
+    font-size: 0.8em;
 }
 
 .blog-card{
     margin-bottom:15px;
+    border: 12px solid black;
 }
 
 .blog-header{
