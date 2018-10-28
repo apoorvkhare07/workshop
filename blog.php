@@ -1,19 +1,16 @@
 <html>
 
 <head>
-    <title>View Blogs</title>
+    <title>View your Blogs</title>
     <link rel="stylesheet" href="blog.css">
 </head>
 
 <body>
-
 <nav class="navbar navbar-expand-sm">
         <a class="navbar-brand" href="https://img.channeli.in"> <h3>Workshop '18</h3> </a>
-        <a href="add_blog.html"><h3>Create</h3></a>
+        <a href="add_blog.html"><h3>Create the blog</h3></a>
 </nav>
-
 <?php
-
 include 'connection.php';
 $sql = 'SELECT * FROM blog_post order by posted_on DESC;';
 $result = $conn->query($sql);
@@ -36,7 +33,6 @@ if($result->num_rows>0){
         </div>';
     }
 }
-
 ?>
 
 </body>
